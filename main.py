@@ -42,13 +42,6 @@ def index():
     cnt=0
     act=""
     msg=""
-    #ff=open("det.txt","w")
-    #ff.write("1")
-    #ff.close()
-
-    #ff=open("bc.txt","r")
-    #bc=ff.read()
-    #ff.close()
     bc="C42"
     
     if request.method == 'POST':
